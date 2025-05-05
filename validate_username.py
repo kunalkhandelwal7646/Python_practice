@@ -10,7 +10,7 @@ if len(username) > 12:
 elif not username.find(" ") == -1:
     print("Username cannot include spaces!!")
 
-elif not username.isdigit():
+    elif not username.isdigit():
     print("Username cannot contain digits")
 
 else:
